@@ -5,7 +5,7 @@ import randomBeer from "../assets/random-beer.png"
 function Home() {
     return ( 
         <>
-        <Link to="/beers" style={{textDecoration: "none"}}>
+        <Link to="/beers" style={{textDecoration: "none", color: "black"}}>
             <img src={beers} alt="beers"/>
             <p>Check our listed beers, along with a few details about them!</p>
         </Link>
@@ -13,8 +13,8 @@ function Home() {
             <img src={randomBeer} alt="Random beer"/>
             <p>Click to check the details on one random beer!</p>
         </Link>
-        <Link to ="/random" style={{textDecoration: "none"}}>
-            <img src={newBeer} alt="Random beer"/>
+        <Link to ="/new-beer" style={{textDecoration: "none"}}>
+            <img src={newBeer} alt="create"/>
             <p>Click here to submit your own beer!</p>
         </Link>
      </>

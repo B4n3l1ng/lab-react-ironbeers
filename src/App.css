@@ -5,7 +5,8 @@
   display: flex;
   border-bottom: 1px solid lightgray;
   justify-content: center;
-  gap:10px
+  gap:10px;
+  border-bottom: 1px solid gray;
 }
 
 .oneBeer img {
@@ -53,4 +54,35 @@
 .silverText {
   color: silver;
   text-align: left;
+}
+
+.createBeer {
+  display: flex;
+  flex-direction: column;
+}
+
+.createBeer input {
+  width: 95vw;
+  border-radius: 14px;
+  border: 1px solid silver;
+  height: 2vh;
+  margin-bottom: 20px
+}
+
+.createBeer p {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  margin-left: 5vw;
+  margin-bottom: 10px
+}
+
+.createBeer button {
+  width: 10vw;
+  margin-left: 45vw;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid black;
+  color: black;
+  background-color: steelblue;
 }
